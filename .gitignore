@@ -1,0 +1,14 @@
+# Python virtual environment (recreate with: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt)
+.venv/
+__pycache__/
+
+# Training data: photos of you + their joint positions
+data/
+
+# Model files
+# hand_landmarker.task is Google's download (re-downloadable, ~8 MB)
+# finger_mlp.pt is trained from your data (regenerate with train.py)
+models/
+
+# macOS clutter
+.DS_Store

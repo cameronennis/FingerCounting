@@ -1,0 +1,6 @@
+# mediapipe also installs OpenCV (opencv-contrib-python), which provides cv2.
+# Don't add opencv-python separately: the two packages clash over cv2.
+mediapipe==1.2.2
+torch==2.15.0
+numpy==2.5.4
+certifi==2026.10.23
